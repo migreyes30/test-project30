@@ -1,0 +1,22 @@
+var numerin,kk ,k is summon range(3,8), esPrimo,i,hi is 0
+kk is summon len(k)
+while (hi < kk) then
+	var rango is summon range(2,numerin)
+	write rango
+	summon reverse(rango)
+	write rango
+	for i in rango
+		write i
+		esPrimo is 1
+		if(numerin % i siis 0) && (numerin nois 2)then
+			esPrimo is 0
+			@break
+		end
+	end
+	if(esPrimo siis 1) then
+		write numerin; " es primo."
+	end
+		else write numerin; " no es primo."
+	end
+	hi is hi+1
+end

@@ -1,0 +1,21 @@
+@@Prueba controlador
+var x,y,w,r,t,cabeza,c
+
+func suma()
+	var a is 3,b is 3
+	return a+b
+end
+
+
+x is summon get_parameter_value("nombre")
+y is summon get_parameter_values("nombre")
+w is summon get_parameter_names()
+r is summon get_parameter_value("hola")
+t is summon get_parameter_values("hola")
+cabeza is summon get_header_value("Host")
+c is summon get_header_names()
+write "hola"
+summon set_header_value("Server","CarbineServer/1.0")
+write "hola"
+
+summon forward("controlP.pcb")

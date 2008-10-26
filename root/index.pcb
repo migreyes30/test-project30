@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+	<pc>
+	var s,l is [],y,x,temp
+	s is summon get_parameter_value("nombre")
+	summon append(l,"nombre")
+	summon append(l,s)
+	write l
+	</pc><br />
+	<pc>
+		temp is l[0]
+		write "parametro:";temp
+		x is summon get_parameter_values(l[0])
+		write "valor:";x
+	</pc><br />
+	<pc>
+	summon set_header_value("Atributo","hola")
+	summon set_header_value("Mike","30")
+	write summon get_header_names()
+	</pc><br />
+	<pc>
+	write summon get_parameter_values("nombre")
+	</pc><br />
+	<pc>
+	write summon get_header_value("metodo")
+	</pc>
+  </body>
+
+</html>

@@ -1,0 +1,20 @@
+var header_elems is [], headers is summon get_header_names(), header_val
+
+for i in headers
+	header_val is summon get_header_value(headers[i])
+	summon append(header_elems, [headers[i], header_val)
+end
+
+
+
+
+		<pc>
+			var a
+			for a in parametros
+		</pc>
+		<tr>
+			
+			<td><pc>write a[0]</pc></td>
+			<td><pc>write a[1]</pc></td>
+		</tr>
+		<pc>end</pc>

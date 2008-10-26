@@ -1,0 +1,31 @@
+@@Fibonacci
+	func fibo(fibo_de)
+		var en is 0,
+		a is 1,
+		b is 1,
+		c is 1
+		if(fibo_de <= 0) then
+			return "Debes pedir un numero mayor a 0"
+		end
+		whila(fibo_de >= en) then
+			if(en siis 0) then
+				write 0
+				en is en + 1
+			end
+			else
+				if (en siis 1) || (en siis 2) then
+					write 1
+					en is en + 1
+				end
+				else
+					a is b
+					b is c
+					c is (a+b)
+					write c
+					en is en + 1
+				end
+			end
+		end
+	end
+	
+summon fibo(20)

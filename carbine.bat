@@ -1,0 +1,1 @@
+C:\Python25\python carbineScript.py %1
