@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+	<H1><pc> write "Primos"</pc></H1> 
+
+<pc>func prime(limite)
+		var primo_actual is 2, 
+		numerito is 3,
+		i,flag is 0,
+		count is 0,k,
+		l
+		if limite < 2 then</pc>
+			<p class='big'><pc>write "NO HAY NUMEROS PRIMOS MENORES AL 2"</pc><p>
+		<pc>end
+		else
+			if limite siis 2 then</pc>
+				<li><pc>write limite</pc></li>
+			<pc>end
+		else
+			whila(numerito <= limite) then
+				for i in summon range(2,numerito)
+					if (numerito % i siis 0) then
+						flag is 1
+						break
+					end
+				end
+				if flag siis 0 then
+					if numerito siis 3 then
+						count is count + 1</pc>
+						<li><pc>write 2</pc></li>
+					<pc>end
+					primo_actual is numerito
+					count is count + 1</pc>
+					<li><pc>write primo_actual</pc></li>
+					<pc>end
+				numerito is numerito + 1
+				flag is 0
+			end
+		end
+	end
+end</pc>
+
+
+<br><br> 
+<ul><pc> summon prime(100)</pc></ul>
+
+</body>
+
+</html>

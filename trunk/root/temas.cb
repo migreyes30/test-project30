@@ -1,0 +1,14 @@
+var nombres,id,clave,i,temp
+
+nombres is summon get_parameter_names()
+summon set_header_value("Aplicacion","Foro")
+summon set_header_value("Foro","Temas de foros")
+
+nombres is summon sort(nombres)
+nombres is summon reverse(nombres)
+summon pop(nombres)
+
+id is summon get_parameter_value(nombres[0])
+clave is summon get_parameter_value(nombres[1])
+
+summon forward("vistaTemas.pcb")

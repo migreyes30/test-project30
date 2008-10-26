@@ -1,0 +1,16 @@
+@@ Factorial
+            var fact,
+		nume
+            func fac (x)
+                    var cont is 1
+                    if x >= 0 then
+                            whila x > 0 then
+                                    cont is cont*x
+                                    x is (x-1)
+                            end
+                    end
+                    return cont
+            end
+            nume is 12
+            fact is summon fac(nume)
+            write "El factorial de " ; nume ; " es " ; fact

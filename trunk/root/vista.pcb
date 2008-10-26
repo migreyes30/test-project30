@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+<head>
+<title>Bienvenida</title>
+
+<style type='text/css'>
+	@import url('estilos.css');
+</style>
+</head>
+
+<body>
+	<h1>
+		&iexcl;Prueba de Fuego!
+	</h1>
+	<div class='imagen' style='position:absolute; left: 450px; top: -70px;'>
+		<img src='your_image.png' />
+	</div>
+	<div style='position:absolute; left: 150px; top: 100px;'>
+		<table>
+			<pc>
+				var x,y
+				for x in summon range(summon len(nombres))
+			</pc>
+				<tr>
+					<td><pc>write nombres[x]</pc></td>
+					<td><pc>write parametros[x]</pc></td>
+				</tr>
+			<pc>
+				end
+			</pc>
+		</table>
+	</div>
+	<div style='position:absolute; left: 150px; top: 400px;'>
+		<table>
+			<pc>
+				for y in summon range(summon len(valores))
+			</pc>
+				<tr>
+					<td><pc>write valores[y]</pc></td>
+					<td><pc>write summon get_header_value(valores[y])</pc></td>
+				</tr>
+			<pc>
+				end
+			</pc>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@@elemento mas grande
+                        @@var lstE
+                        func mas_grande(lstf)
+                                var accum,i
+                                accum is lstf[0]
+                                for i in lstf
+                                        if accum < i then
+                                                accum is i
+                                        end
+                                end
+                                return accum
+                        end
+
+                        var lista is [9,21,58,40,100,89,90000]
+                        write summon mas_grande(lista)

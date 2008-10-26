@@ -1,0 +1,55 @@
+@@ Fizz Buzz
+
+func FizzBuzz(limite)
+	var n is 1, imprimir is ""
+	whila (n <= limite) then
+		if (n % 3 siis 0) then
+			imprimir is "Fizz "
+		end
+		if (n % 5 siis 0) then
+		imprimir is imprimir;"Buzz"
+		end
+		write imprimir
+		imprimir is ""
+		n is n + 1
+	end
+end
+
+@@ Numeros primos
+@@raiz is summon root(numerito)
+
+func prime(limite)
+		var primo_actual is 2, numerito is 3,i,flag is 0,count is 0,k,l
+		if limite < 2 then
+			write "no hay numeros primos menores al 2"
+		end
+		else
+			if limite siis 2 then
+				write limite
+			end
+			else
+				whila(numerito <= limite) then
+					for i in summon range(2,numerito)
+						if (numerito % i siis 0) then
+							flag is 1
+							break
+						end
+					end
+					if flag siis 0 then
+						if numerito siis 3 then
+							count is count + 1
+							write count;"º numero primo: ";2
+						end
+						primo_actual is numerito
+						count is count + 1
+						write count;"º numero primo: ";primo_actual
+					end
+					numerito is numerito + 1
+					flag is 0
+				end
+			end
+		end
+end
+
+@@summon FizzBuzz(100)
+summon prime(100)

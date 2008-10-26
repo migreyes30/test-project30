@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+		<pc>write "suma->";summon suma()</pc><br />
+		<pc>write "NOMBRE->";x</pc><br />
+		<pc>write "VALORES_NOMBRE->";y</pc><br />
+		<pc>write "PARAMETROS->";w</pc><br />
+		<pc>write "HOLA->";r</pc><br />
+		<pc>write "VALORES_HOLA->";t</pc><br />
+		<pc>write "HEADER->";cabeza</pc><br />
+		<pc>write "NOMBRES_HEADERS->";c</pc>
+</body>
+
+</html>

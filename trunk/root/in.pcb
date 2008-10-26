@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>  
+
+    <img border='0' src='solecito.png' width='122' height='120'>
+
+    <h1>
+      &iexcl;Bienvenido!
+    </h1>
+
+    <p>    
+    Si est&aacute;s viendo esta p&aacute;gina, quiere decir que
+    el servidor HTTP est&aacute; funcionando correctamente.
+    </p>
+    
+    <p> 
+    <b>&iexcl;Felicidades!</b>
+    </p>
+
+	<!--	<form action='control.cb' method='post'>
+		<input type='Text' value='test' name='name'>
+		<input name='submit' type=submit value = Post align='middle'>
+    	</form>
+
+    	<form action='testForm.html' method='post'>
+		<input type='Text' value='Mary' name='name'>
+		<input name='submit2' type=submit value = Get align='middle'>
+    	</form>-->
+
+	<pc> write "PUTITO"</pc>
+
+
+  
+
+</body>
+
+</html>

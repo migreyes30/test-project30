@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+	<H1><pc> write "Fizz Buzz"</pc></H1> 
+<pc>@@ Fizz Buzz
+func FizzBuzz(limite)
+	var n is 1, imprimir is ""
+	whila (n <= limite) then
+		if (n % 3 siis 0) then
+			imprimir is "Fizz "
+		end
+		if (n % 5 siis 0) then
+		imprimir is imprimir;"Buzz"
+		end</pc>
+<br ><li> <pc>	write imprimir </pc></li><br >
+<pc>		imprimir is ""
+	n is n + 1
+	end
+end</pc>
+
+<br><br> 
+<ol> <pc> summon FizzBuzz(100)</pc> </ol>
+
+</body>
+
+</html>

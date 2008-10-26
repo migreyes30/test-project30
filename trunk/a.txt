@@ -1,0 +1,6 @@
+Estas son las variables de configuración.
+En cada línea sólo debe estar escrito el conceto de configuración así como su
+valor, separados por el signo de puntuación "dos puntos" (:).
+
+port: 7772
+root: root

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+<head>
+<title>Bienvenida</title>
+
+<style type='text/css'>
+	@import url('estilos.css');
+</style>
+</head>
+<body>
+	<div style='position:absolute; left: 150px; top: 500px;'>
+		<pc>write id</pc>
+		<br />
+		<pc>write clave</pc>
+	</div>
+<div class='boxed2' align='center' style='position:absolute; left: 170px; top: 35px;'>
+			<h1 class='titulo'>Los Foros de la Carabina de Claudia</h1>
+</div>
+<div style='position:absolute; left: 390px; top: 190px;'>
+	<table>
+		<tr>
+			<td>
+	 <fieldset>
+		<legend>Temas</legend>
+	 	<br />
+		<label><a href='inicio.html'>Musica</a><br /></label>
+		<label><br /><br /><a href='inicio.html'>Deportes</a><br /></label>
+		<br />
+	</fieldset>
+	<form action='inicio.html' method='post'>	 
+	 	<label>
+		<br /><br />
+		<input name='Boton' type='submit' value = 'Regresar'>
+		</label>
+	</form> 
+			</td>
+		</tr>
+	</table>
+
+
+</div>
+</body>
+</html>

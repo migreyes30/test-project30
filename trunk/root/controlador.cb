@@ -1,0 +1,21 @@
+var nombres,i,j,valores,parametros is [],temp is [],a
+
+nombres is summon get_parameter_names()
+summon set_header_value("Server","CarbineServer/1.0")
+summon set_header_value("TipoPrueba","La de Fuego")
+
+
+
+for i in summon range(summon len(nombres))
+	valores is summon get_parameter_values(nombres[i])
+	if summon len(valores) > 1 then
+		summon append(parametros,valores)
+	end
+	else
+		summon append(parametros,valores[0])
+	end
+end
+
+valores is summon get_header_names()
+
+summon forward("vista.pcb")

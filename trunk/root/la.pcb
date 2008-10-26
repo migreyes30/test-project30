@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+	
+  <pc> var x is 0, 
+	y is 1,
+	m is 4,
+	l is 3, d is 3,
+	s is 1
+	l is s+m
+</pc>
+<table>
+	<tr>
+<td><pc>	write "s+m=";l</pc></td>
+<td><pc>	write "s=";s</pc></td>
+<td><pc>	write "y=";y</pc></td>
+<td><pc>	write "d=";d</pc></td>
+<td><pc>	write "x=";x</pc></td>
+		</td>
+	</tr>
+</table>
+</body>
+
+</html>

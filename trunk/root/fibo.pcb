@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
+<html>
+
+  <head>
+    <title>
+      Bienvenida
+    </title>
+    
+    <style type='text/css'>
+       @import url('estilos.css');
+    </style>
+
+  </head>
+
+  <body>
+	<H1><pc> write "Fibo"</pc></H1> 
+<pc> @@Fibonacci
+	func fibo(fibo_de)
+		var en is 0,
+		a is 1,
+		b is 1,c is 1
+		if(fibo_de <= 0) then</pc>
+			<li><pc>write  "Debes pedir un numero mayor a 0"</pc></li>
+		<pc>end
+		whila(fibo_de >= en) then
+			if(en siis 0) then</pc>
+				<li><pc>write 0</pc></li>
+				<pc>en is en + 1
+			end
+			else
+				if (en siis 1) || (en siis 2) then</pc>
+					<li><pc>write 1</pc></li>
+					<pc>en is en + 1
+				end
+				else
+					a is b
+					b is c
+					c is (a+b)</pc>
+					<li><pc>write c</pc></li>
+					<pc>en is en + 1
+				end
+			end
+		end
+	end
+</pc>
+
+<br /><br />
+<ol> <pc>summon fibo(20)</pc> </ol> 
+
+</body>
+
+</html>
