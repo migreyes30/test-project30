@@ -1,7 +1,7 @@
  	var x is 0, y is 1,m is 4,l is 3, d is 3,s is 1
 		l is s + m
 		write "s+m=";l
-		@write "s=";s
-		@write "y=";y
+		write "s=";s
+		write "y=";y
 		@write "d=";d
 		@write "x=";x
